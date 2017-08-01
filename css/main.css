@@ -1,24 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Ubuntu');
 body
 {
   background-color: #f5f5f5;
-  font-family: "Press+Start+2P";
+  font-family: "Ubuntu";
   font-weight: 300;
   font-size: 16px;
-  color: #00bfa5;
+  color: #555;
 
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
+  -moz-font-smoothing: antialiased;
+  -moz-overflow-scrolling: touch;
+  -o-font-smoothing: antialiased;
+  -o-overflow-scrolling: touch;
 
   margin-top: 70px;
 }
 
 h1, h2, h3, h4, h5, h6
 {
-  font-family: "Ubuntu";
+  font-family: "Lobster";
   font-weight: 300;
-  font-size: 16px;
-  color: #555;
+  font-size: 70px;
+  color: #ffffff;
 }
 
 p
@@ -39,7 +43,7 @@ a
 
 a:hover, a:focus
 {
-  color: #ff9800;
+  color: #ff8f00;
   text-decoration: none;
   outline: 0;
 }
@@ -64,12 +68,104 @@ hr
 
 .navbar-inverse
 {
-  background: #2d2d2d;
-  border-color: #2d2d2d;
+  background: ;
+  border-color: ;
 }
 
 .navbar-inverse .navbar-nav > .active > a
 {
   background-color: #ff9800;
+}
 
+.navbar-inverse .navbar-brand
+{
+  color: #999;
+  font-weight: bolder;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+#headerwrap
+{
+  background: url(../img/pattern-23.jpg) no-repeat center top;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#headerwrap h1
+{
+  margin-top: 100px;
+  color: white;
+  font-size: 70px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+#headerwrap h2
+{
+  color: white;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.w h4
+{
+  font-size: 25px;
+  color: #ff8f00;
+  text-shadow: 1px 1px #555;
+}
+
+#dg
+{
+  background: #e0e0e0;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+#dg h4
+{
+  font-size: 40px;
+}
+
+.tilt
+{
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.tilt:hover
+{
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+.wb
+{
+  padding-top: 35px;
+  margin-bottom:
+}
+
+.wb h4
+{
+  font-size: 35px;
+  color: #ff8f00;
 }
