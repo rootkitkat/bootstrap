@@ -169,3 +169,48 @@ hr
   font-size: 35px;
   color: #ff8f00;
 }
+
+#lg
+{
+  background: #ebebeb;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+#lg h4
+{
+  font-size: 45px;
+}
+
+#bc
+{
+  background: #FFCC80;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#bc h4
+{
+  color: #ff8f00;
+  font-size: 45px;
+}
+
+#footer
+{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#footer i
+{
+  color: #555;
+  font-size: 30px;
+  padding: 20px;
+}
+
+#footer i:hover
+{
+  color: #ff8f00;
+}
+#Copyright (c) {2017} Copyright Filin Corporation All Rights Reserved.
