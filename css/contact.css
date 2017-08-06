@@ -78,13 +78,13 @@ a:hover, a:focus
 
 #headerwrap_S
 {
-  background: url(../img/pattern-27.jpg) no-repeat center top;
+  background: url(../img/back.jpg) no-repeat center top;
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
   background-attachment: relative;
   background-position: center center;
-  min-height: 500px;
+  min-height: 400px;
   width: 100%;
 
   background-size: 100%;
@@ -120,5 +120,10 @@ a:hover, a:focus
 #footer i:hover
 {
   color: #ff8f00;
+}
+
+#footer p
+{
+  color: #555;
 }
 #Copyright (c) {2017} Copyright Filin Corporation All Rights Reserved.

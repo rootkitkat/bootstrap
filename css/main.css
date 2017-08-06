@@ -186,7 +186,15 @@ hr
 #lg h4
 {
   font-size: 45px;
+  color: #FFCC80;
 }
+
+#lg h3
+{
+  font-size: 35px;
+  color: #FFCC80;
+}
+
 
 #bc
 {
