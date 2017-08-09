@@ -177,7 +177,7 @@ hr
 
 #lg
 {
-  background: #ebebeb;
+  background: #f5f5f5; <!--#ebebeb-->
   padding-top: 70px;
   padding-bottom: 70px;
   text-align: center;
@@ -186,13 +186,13 @@ hr
 #lg h4
 {
   font-size: 45px;
-  color: #FFCC80;
+  color: #ff8f00; <!--#ff8f00-->
 }
 
 #lg h3
 {
   font-size: 35px;
-  color: #FFCC80;
+  color: #ff8f00; <!-- #FFCC80-->
 }
 
 
@@ -207,6 +207,14 @@ hr
 {
   color: #ff8f00;
   font-size: 45px;
+}
+
+#lt
+{
+    background: #ebebeb; <!-- #f5f5f5-->
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
 }
 
 #footer
