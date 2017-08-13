@@ -31,6 +31,12 @@ p
   margin-bottom: 25px;
 }
 
+details, summary
+{
+  cursor: pointer;
+  font-family: monospace, monospace;
+  /*font-size: 1em;*/
+}
 .centered
 {
   text-align: center;
@@ -48,6 +54,11 @@ a:hover, a:focus
   outline: 0;
 }
 
+h4
+{
+  color: #ff8f00;
+  font-size: 45px;
+}
 .navbar
 {
   font-weight: 800;
@@ -102,6 +113,20 @@ a:hover, a:focus
   font-size: 70px;
   font-weight: 300;
   letter-spacing: 3px;
+}
+
+#tst
+{
+  background-color: #ebebeb;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#preft
+{
+  background-color: #FFCC80;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 #footer

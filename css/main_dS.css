@@ -98,10 +98,21 @@ a:hover, a:focus
 #headerwrap_dS h1
 {
   margin-top: 100px;
-  color: white;
+  color: #FFB74D;
   font-size: 70px;
   font-weight: 300;
   letter-spacing: 3px;
+}
+
+#devS
+{
+  background-color: #ebebeb;
+}
+
+#devS h4
+{
+  color: #ff9800;
+  font-size: 40px;
 }
 
 #footer

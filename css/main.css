@@ -124,7 +124,7 @@ hr
 {
   font-size: 25px;
   color: #ff8f00;
-  text-shadow: 1px 1px #555;
+  /*text-shadow: 1px 1px #555;*/
 }
 
 .w i
@@ -206,12 +206,12 @@ hr
 #bc h4
 {
   color: #ff8f00;
-  font-size: 45px;
+  font-size: 45px;а
 }
 
 #lt
 {
-    background: #ebebeb; <!-- #f5f5f5-->
+  background: #ebebeb; <!-- #f5f5f5-->
   padding-top: 70px;
   padding-bottom: 70px;
   text-align: center;
