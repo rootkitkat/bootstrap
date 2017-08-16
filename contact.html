@@ -9,131 +9,203 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+  <!--<link rel="stylesheet" href="css/reset.css">--> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style_S.css"> <!-- Resource style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+  <link rel="apple-touch-icon" sizes="57x57" href="img/fav/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/fav/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/fav/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/fav/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/fav/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/fav/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/fav/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/fav/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/fav/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/fav/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/fav/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
+  <link rel="manifest" href="img/fav/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/fav/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
 </head>
-<body>
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">X Team</a>
-      </div>
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li> <a href="index.html">Главная <!--<i class="fa fa-book" aria-hidden="true"></i>--></a></li>
-          <li> <a href="Projects.html"><i class="fa fa-code" aria-hidden="true"></i></a></li>
-          <li> <a href="devS.html"><i class="fa fa-user-o" aria-hidden="true"></i></i></a></li>
-          <!--<li> <a href="#">Донат <i class="fa fa-credit-card-alt" aria-hidden="true"></i></a></li>-->
-          <li class="active_S"> <a href="#"><i class="fa fa-envelope-open-o" aria-hidden="true"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div id="headerwrap_S">
-    <div class="container">
-      <div class="row centered">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h1>Наши контакты</h1>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">X Team</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li> <a href="index.html">Главная <!--<i class="fa fa-book" aria-hidden="true"></i>--></a></li>
+            <li> <a href="Projects.html"><i class="fa fa-code" aria-hidden="true"></i></a></li>
+            <li> <a href="devS.html"><i class="fa fa-user-o" aria-hidden="true"></i></i></a></li>
+            <!--<li> <a href="#">Донат <i class="fa fa-credit-card-alt" aria-hidden="true"></i></a></li>-->
+            <li class="active_S"> <a href="#"><i class="fa fa-envelope-open-o" aria-hidden="true"></i></a></li>
+          </ul>
         </div>
       </div>
     </div>
-  </div>
-<form class="cd-form floating-labels">
-		<fieldset>
-			<legend>Форма обратной связи</legend>
-
-			<div class="error-message">
-				<p>Пожалуйста введите корректный email</p>
-			</div>
-
-			<div class="icon">
-				<label class="cd-label" for="cd-name">Имя</label>
-				<input class="user" type="text" name="cd-name" id="cd-name" required>
-		    </div>
-
-		    <div class="icon">
-		    	<label class="cd-label" for="cd-company">Компания</label>
-				<input class="company" type="text" name="cd-company" id="cd-company">
-		    </div>
-
-		    <div class="icon">
-		    	<label class="cd-label" for="cd-email">Email</label>
-				<input class="email error" type="email" name="cd-email" id="cd-email" required>
-		    </div>
-		</fieldset>
-
-		<fieldset>
-			<legend>Project Info</legend>
-			<div>
-				<h4>Project type</h4>
-
-				<ul class="cd-form-list">
-					<li>
-						<input type="radio" name="radio-button" id="cd-radio-1" checked>
-						<label for="cd-radio-1">Choice 1</label>
-					</li>
-
-					<li>
-						<input type="radio" name="radio-button" id="cd-radio-2">
-						<label for="cd-radio-2">Choice 2</label>
-					</li>
-
-					<li>
-						<input type="radio" name="radio-button" id="cd-radio-3">
-						<label for="cd-radio-3">Choice 3</label>
-					</li>
-				</ul>
-			</div>
-
-			<div>
-				<h4>Features</h4>
-
-				<ul class="cd-form-list">
-					<li>
-						<input type="checkbox" id="cd-checkbox-1">
-						<label for="cd-checkbox-1">Option 1</label>
-					</li>
-
-					<li>
-						<input type="checkbox" id="cd-checkbox-2">
-						<label for="cd-checkbox-2">Option 2</label>
-					</li>
-
-					<li>
-						<input type="checkbox" id="cd-checkbox-3">
-						<label for="cd-checkbox-3">Option 3</label>
-					</li>
-				</ul>
-			</div>
-
-			<div class="icon">
-				<label class="cd-label" for="cd-textarea">Ваше сообщение</label>
-      			<textarea class="message" name="cd-textarea" id="cd-textarea" required></textarea>
-			</div>
-
-			<div>
-		      	<input type="submit" value="Отправить сообщение">
-		    </div>
-		</fieldset>
-	</form>
-
-  <div id="footer">
-    <div class="row centered">
-      <a href="https://t.me/rootnougat"><i class="fa fa-telegram" aria-hidden="true"></i></a>
-      <a href="https://github.com/rootkitkat"><i class="fa fa-github" aria-hidden="true"></i></a>
-      <a href="https://vk.com/pavel.filin"><i class="fa fa-vk" aria-hidden="true"></i></a>
-      <p>2017 Copyright&#169; Filin Corporation All Rights Reserved.</p>
+    <div id="headerwrap_S">
+      <div class="container">
+        <div class="row centered">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h1>Наши контакты</h1>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-<script src="js/jquery-2.1.1.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-</body>
+    <form class="cd-form floating-labels" action="php/contact_form.php" method="post">
+    		<fieldset>
+    			<legend>Форма обратной связи</legend>
+
+    			<div class="error-message">
+    				<p>Пожалуйста введите корректный email</p>
+    			</div>
+
+    			<div class="icon">
+    				<label class="cd-label" for="cd-name">Имя</label>
+    				<input class="user" type="text" name="cd-name" id="cd-name" required>
+    		    </div>
+
+    		    <div class="icon">
+    		    	<label class="cd-label" for="cd-company">Компания</label>
+    				<input class="company" type="text" name="cd-company" id="cd-company">
+    		    </div>
+
+    		    <div class="icon">
+    		    	<label class="cd-label" for="cd-email">Email</label>
+    				<input class="email error" type="email" name="cd-email" id="cd-email" required>
+    		    </div>
+    		</fieldset>
+
+    		<fieldset>
+    			<legend>Project Info</legend>
+    			<div>
+    				<h4>Project type</h4>
+
+    				<ul class="cd-form-list">
+    					<li>
+    						<input type="radio" name="radio-button" id="cd-radio-1" checked>
+    						<label for="cd-radio-1">Choice 1</label>
+    					</li>
+
+    					<li>
+    						<input type="radio" name="radio-button" id="cd-radio-2">
+    						<label for="cd-radio-2">Choice 2</label>
+    					</li>
+
+    					<li>
+    						<input type="radio" name="radio-button" id="cd-radio-3">
+    						<label for="cd-radio-3">Choice 3</label>
+    					</li>
+    				</ul>
+    			</div>
+
+    			<div>
+    				<h4>Features</h4>
+
+    				<ul class="cd-form-list">
+    					<li>
+    						<input type="checkbox" id="cd-checkbox-1">
+    						<label for="cd-checkbox-1">Option 1</label>
+    					</li>
+
+    					<li>
+    						<input type="checkbox" id="cd-checkbox-2">
+    						<label for="cd-checkbox-2">Option 2</label>
+    					</li>
+
+    					<li>
+    						<input type="checkbox" id="cd-checkbox-3">
+    						<label for="cd-checkbox-3">Option 3</label>
+    					</li>
+    				</ul>
+    			</div>
+
+    			<div class="icon">
+    				<label class="cd-label" for="cd-textarea">Ваше сообщение</label>
+          			<textarea class="message" name="cd-textarea" id="cd-textarea" required></textarea>
+    			</div>
+
+          <input name="bezspama" type="text" style="display:none" value="" />
+    			<div>
+    		      	<input type="submit" value="Отправить сообщение">
+    		    </div>
+    		</fieldset>
+    	</form>
+      <div class="col-lg-12">
+        <div class="container">
+          <div class="row centered">
+            <details>
+              <summary>
+                Не раскрывай спойер!
+              </summary>
+              <form action="test.html">
+                <input type="submit" value="Не нажимай на эту кнопку!!!">
+                <style media="screen">
+                input[type="submit"]
+                {
+                  /* button style */
+                  border: none;
+                  background: red;
+                  border-radius: .25em;
+                  padding: 16px 20px;
+                  color: #f5f5f5;
+                  font-weight: bold;
+                  float: right;
+                  cursor: pointer;
+                  -webkit-font-smoothing: antialiased;
+                  -moz-osx-font-smoothing: grayscale;
+                  -webkit-appearance: none;
+                  -moz-appearance: none;
+                  -ms-appearance: none;
+                  -o-appearance: none;
+                  appearance: none;
+                }
+                input[type="submit"]:hover
+                {
+                  background: #42a2e1;
+                }
+                .cd-form input[type="submit"]:focus
+                {
+                  outline: none;
+                  background: #2b3e51;
+                }
+                input[type="submit"]:active
+                {
+                  -webkit-transform: scale(0.9);
+                  -moz-transform: scale(0.9);
+                  -ms-transform: scale(0.9);
+                  -o-transform: scale(0.9);
+                  transform: scale(0.9);
+                }
+                </style>
+              </form>
+            </details>
+          </div>
+        </div>
+      </div>
+
+    <div id="footer">
+      <div class="row centered">
+        <a href="https://t.me/rootnougat"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+        <a href="https://github.com/rootkitkat"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://vk.com/pavel.filin"><i class="fa fa-vk" aria-hidden="true"></i></a>
+        <p>2017 Copyright&#169; Filin Corporation All Rights Reserved.</p>
+      </div>
+    </div>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>

