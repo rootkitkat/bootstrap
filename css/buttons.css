@@ -129,7 +129,7 @@
   * that must be applied to all buttons when in a disabled state.
   */ }
   .button:visited {
-    color: #666666; }
+    color: #555; }
   .button:hover, .button:focus {
     background-color: #f6f6f6;
     text-decoration: none;
@@ -1248,7 +1248,7 @@
     font-size: 12.8px;
     padding: 5px 10px;
     float: none;
-    color: #666666;
+    color: #555;
     text-decoration: none; }
     .button-dropdown-list > li > a:hover {
       color: #5e5e5e;
