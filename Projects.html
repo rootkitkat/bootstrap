@@ -93,24 +93,24 @@
              <summary>Form1.cs</summary>
              <p>
                <pre class="prettyprint">
-             public int randomid()
-             {
-                 Random random = new Random();
-                 int i = random.Next(1000,9999);
-                 return i;
-             }
-             public void MakeXMLOnLoad()
-             {
-                 XmlTextWriter textWritter = new XmlTextWriter(pathToXml, null);
-                 textWritter.WriteStartDocument();
-                 textWritter.WriteStartElement("root");
-                 textWritter.WriteEndElement();
-                 textWritter.Close();
-             }
-             private void exitToolStripMenuItem_Click(object sender, EventArgs e)
-             {
-                 Close();
-             }
+public int randomid()
+{
+  Random random = new Random();
+  int i = random.Next(1000,9999);
+  return i;
+}
+public void MakeXMLOnLoad()
+{
+  XmlTextWriter textWritter = new XmlTextWriter(pathToXml, null);
+  textWritter.WriteStartDocument();
+  textWritter.WriteStartElement("root");
+  textWritter.WriteEndElement();
+  textWritter.Close();
+}
+private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+{
+  Close();
+}
                </pre>
                <br>
                <hr>
