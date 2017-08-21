@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="css/buttons.css">
 
 <!-- Only needed if you want support for dropdown menus -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
 <script type="text/javascript" src="js/buttons.js"></script>
 
   <link rel="apple-touch-icon" sizes="57x57" href="img/fav/apple-icon-57x57.png">
@@ -70,140 +70,145 @@
         </div>
       </div>
     </div>
-    <form class="cd-form floating-labels" action="php/contact_form.php" method="post">
-    		<fieldset>
-    			<legend>Форма обратной связи</legend>
 
-    			<div class="error-message">
-    				<p>Пожалуйста введите корректный email</p>
-    			</div>
+    <div class="back">
+      <form class="cd-form floating-labels" action="php/contact_form.php" method="post">
+      		<fieldset>
+      			<legend>Форма обратной связи</legend>
 
-    			<div class="icon">
-    				<label class="cd-label" for="cd-name">Имя</label>
-    				<input class="user" type="text" name="cd-name" id="cd-name" required>
-    		    </div>
+      			<div class="error-message">
+      				<p>Пожалуйста введите корректный email</p>
+      			</div>
 
-    		    <div class="icon">
-    		    	<label class="cd-label" for="cd-company">Компания</label>
-    				<input class="company" type="text" name="cd-company" id="cd-company">
-    		    </div>
+      			<div class="icon">
+      				<label class="cd-label" for="cd-name">Имя</label>
+      				<input class="user" type="text" name="cd-name" id="cd-name" required>
+      		    </div>
 
-    		    <div class="icon">
-    		    	<label class="cd-label" for="cd-email">Email</label>
-    				<input class="email error" type="email" name="cd-email" id="cd-email" required>
-    		    </div>
-    		</fieldset>
+      		    <div class="icon">
+      		    	<label class="cd-label" for="cd-company">Компания</label>
+      				<input class="company" type="text" name="cd-company" id="cd-company">
+      		    </div>
 
-    		<fieldset>
-    			<legend>Project Info</legend>
-    			<div>
-    				<h4>Project type</h4>
+      		    <div class="icon">
+      		    	<label class="cd-label" for="cd-email">Email</label>
+      				<input class="email error" type="email" name="cd-email" id="cd-email" required>
+      		    </div>
+      		</fieldset>
 
-    				<ul class="cd-form-list">
-    					<li>
-    						<input type="radio" name="radio-button" id="cd-radio-1" checked>
-    						<label for="cd-radio-1">Choice 1</label>
-    					</li>
+      		<fieldset>
+      			<legend>Project Info</legend>
+      			<div>
+      				<h4>Project type</h4>
 
-    					<li>
-    						<input type="radio" name="radio-button" id="cd-radio-2">
-    						<label for="cd-radio-2">Choice 2</label>
-    					</li>
+      				<ul class="cd-form-list">
+      					<li>
+      						<input type="radio" name="radio-button" id="cd-radio-1" checked>
+      						<label for="cd-radio-1">Choice 1</label>
+      					</li>
 
-    					<li>
-    						<input type="radio" name="radio-button" id="cd-radio-3">
-    						<label for="cd-radio-3">Choice 3</label>
-    					</li>
-    				</ul>
-    			</div>
+      					<li>
+      						<input type="radio" name="radio-button" id="cd-radio-2">
+      						<label for="cd-radio-2">Choice 2</label>
+      					</li>
 
-    			<div>
-    				<h4>Features</h4>
+      					<li>
+      						<input type="radio" name="radio-button" id="cd-radio-3">
+      						<label for="cd-radio-3">Choice 3</label>
+      					</li>
+      				</ul>
+      			</div>
 
-    				<ul class="cd-form-list">
-    					<li>
-    						<input type="checkbox" id="cd-checkbox-1">
-    						<label for="cd-checkbox-1">Option 1</label>
-    					</li>
+      			<div>
+      				<h4>Features</h4>
 
-    					<li>
-    						<input type="checkbox" id="cd-checkbox-2">
-    						<label for="cd-checkbox-2">Option 2</label>
-    					</li>
+      				<ul class="cd-form-list">
+      					<li>
+      						<input type="checkbox" id="cd-checkbox-1">
+      						<label for="cd-checkbox-1">Option 1</label>
+      					</li>
 
-    					<li>
-    						<input type="checkbox" id="cd-checkbox-3">
-    						<label for="cd-checkbox-3">Option 3</label>
-    					</li>
-    				</ul>
-    			</div>
+      					<li>
+      						<input type="checkbox" id="cd-checkbox-2">
+      						<label for="cd-checkbox-2">Option 2</label>
+      					</li>
 
-    			<div class="icon">
-    				<label class="cd-label" for="cd-textarea">Ваше сообщение</label>
-          			<textarea class="message" name="cd-textarea" id="cd-textarea" required></textarea>
-    			</div>
+      					<li>
+      						<input type="checkbox" id="cd-checkbox-3">
+      						<label for="cd-checkbox-3">Option 3</label>
+      					</li>
+      				</ul>
+      			</div>
 
-          <input name="bezspama" type="text" style="display:none" value="" />
-    			<div>
-    		      	<input type="submit" value="Отправить сообщение">
-    		    </div>
-    		</fieldset>
-    	</form>
-      <div class="col-lg-12">
-        <div class="container">
-          <div class="row centered">
-            <details>
-              <summary>
-                Не раскрывай спойер!
-              </summary>
-              <form action="test.html">
-                <input type="submit" value="Не нажимай на эту кнопку!!!">
-                <style media="screen">
-                input[type="submit"]
-                {
-                  /* button style */
-                  border: none;
-                  background: red;
-                  border-radius: .25em;
-                  padding: 16px 20px;
-                  color: #f5f5f5;
-                  font-weight: bold;
-                  float: right;
-                  cursor: pointer;
-                  -webkit-font-smoothing: antialiased;
-                  -moz-osx-font-smoothing: grayscale;
-                  -webkit-appearance: none;
-                  -moz-appearance: none;
-                  -ms-appearance: none;
-                  -o-appearance: none;
-                  appearance: none;
-                }
-                input[type="submit"]:hover
-                {
-                  background: #42a2e1;
-                }
-                .cd-form input[type="submit"]:focus
-                {
-                  outline: none;
-                  background: #2b3e51;
-                }
-                input[type="submit"]:active
-                {
-                  -webkit-transform: scale(0.9);
-                  -moz-transform: scale(0.9);
-                  -ms-transform: scale(0.9);
-                  -o-transform: scale(0.9);
-                  transform: scale(0.9);
-                }
-                </style>
-              </form>
-              <br><br>
-              <button class="button button-large button-plain button-border button-circle"><i class="fa fa-reply"></i></button>
-            </details>
+      			<div class="icon">
+      				<label class="cd-label" for="cd-textarea">Ваше сообщение</label>
+            			<textarea class="message" name="cd-textarea" id="cd-textarea" required></textarea>
+      			</div>
+
+            <input name="bezspama" type="text" style="display:none" value="" />
+      			<div>
+      		      	<input type="submit" value="Отправить сообщение">
+      		    </div>
+      		</fieldset>
+      	</form>
+        <div class="col-lg bk">
+          <div class="container">
+            <div class="row centered">
+              <details>
+                <summary>
+                  Не раскрывай спойер!
+                </summary>
+                <!--<form action="test.html">
+                  <input type="submit" value="Не нажимай на эту кнопку!!!">
+                  <style media="screen">
+                  input[type="submit"]
+                  {
+                    /* button style */
+                    border: none;
+                    background: red;
+                    border-radius: .25em;
+                    padding: 16px 20px;
+                    color: #f5f5f5;
+                    font-weight: bold;
+                    float: right;
+                    cursor: pointer;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    -ms-appearance: none;
+                    -o-appearance: none;
+                    appearance: none;
+                  }
+                  input[type="submit"]:hover
+                  {
+                    background: #42a2e1;
+                  }
+                  .cd-form input[type="submit"]:focus
+                  {
+                    outline: none;
+                    background: #2b3e51;
+                  }
+                  input[type="submit"]:active
+                  {
+                    -webkit-transform: scale(0.9);
+                    -moz-transform: scale(0.9);
+                    -ms-transform: scale(0.9);
+                    -o-transform: scale(0.9);
+                    transform: scale(0.9);
+                  }
+                  </style>
+                </form>-->
+
+                <!--<a href="test.html" class="button button-block button-rounded button-highlight button-large">Не нажимай на эту кнопку!!!</a>-->
+                <br>
+                <a href="test.html" class="button button-caution button-pill button-jumbo">Не нажимай на эту кнопку!!!</a>
+                <br><br>
+              </details>
+            </div>
           </div>
         </div>
-      </div>
-
+    </div>
     <div id="footer">
       <div class="row centered">
         <a href="https://t.me/rootnougat"><i class="fa fa-telegram" aria-hidden="true"></i></a>

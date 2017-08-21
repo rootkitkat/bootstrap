@@ -29,6 +29,8 @@ p
 {
   line-height: 28px;
   margin-bottom: 25px;
+  margin-top: 25px;
+  word-wrap:break-word;
 }
 
 .centered
@@ -46,6 +48,14 @@ a:hover, a:focus
   color: #ff8f00;
   text-decoration: none;
   outline: 0;
+}
+
+hr
+{
+  color: #555;
+  background-color: #555;
+  border: none;
+  height: 2px;
 }
 
 .navbar
@@ -107,12 +117,44 @@ a:hover, a:focus
 #devS
 {
   background-color: #ebebeb;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 #devS h4
 {
   color: #ff9800;
   font-size: 40px;
+}
+
+#devS i
+{
+  color: #555;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#devS i:hover
+{
+  color: #ff8f00;
+}
+
+.container-1
+{
+
+}
+.container-1 div
+{
+  padding: 10px;
+  border: 1px solid silver;
+}
+.box-1
+{
+
+}
+.box-2
+{
+
 }
 
 #footer

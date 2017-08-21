@@ -48,6 +48,24 @@ a:hover, a:focus
   outline: 0;
 }
 
+/* .back
+{
+  background-color: #ebebeb;
+} */
+
+
+summary
+{
+  cursor: pointer;
+  font-family: monospace, monospace;
+  /*font-size: 1em;*/
+}
+
+.bk
+{
+  background-color: #D32F2F;
+}
+
 .navbar
 {
   font-weight: 800;
